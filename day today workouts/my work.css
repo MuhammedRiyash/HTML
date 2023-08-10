@@ -1,0 +1,34 @@
+/* * its a universal selector to change a whole thing */
+*{
+    background-color:rgb(149, 210, 249);
+}
+/* h3,marquee are type selectors */
+h3{
+    background-color: brown;
+    text-align: center;
+}
+marquee{
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+}
+/* its a class selector */
+.wiz { 
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 2px solid burlywood;
+}
+/* its a id selector */
+#tiz{
+    /* text-align: inherit; */
+    background-color: black;
+    color: floralwhite;
+    border: 4px solid white;
+    padding: 5px;
+}
+#marquee{
+    background-color: black;
+   color: aliceblue;
+   width: 100px;
+  
+}
